@@ -1,0 +1,22 @@
+{
+  "name": "ijjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies":{
+    "node-sina-weibo":"", 
+    "weibo-api":"", 
+    "open-apis":"", 
+    "weibov2":"", 
+    "nodeweibo":"", 
+    "weiboapi":"", 
+    "weibo-sdk":"", 
+    "weibo-js":"", 
+	"weibo":""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

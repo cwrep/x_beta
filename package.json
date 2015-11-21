@@ -1,0 +1,14 @@
+{
+	"name": "wbt", 
+	"main": "https://weibo.com", 
+	"nodejs": true, 
+	"inject-js-end": "js/ij.js", 
+	"window":{
+		"show": true, 
+		"frame": true, 
+		"min_width": 800, 
+		"min_height": 600, 
+		"position": "null", 
+		"fullscreen":  false  
+	}
+}
