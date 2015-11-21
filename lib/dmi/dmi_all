@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+sudo apt-get install gcc
+
+./d_sqlite
+
+./dmi_node
+./dmi_phantomjs
+./dmi_nwjs
+./dmi_sqlite3

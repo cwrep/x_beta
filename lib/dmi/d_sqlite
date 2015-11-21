@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+mv ../sqlite ../sqlite.bak
+wget http://www.sqlite.org/2015/sqlite-amalgamation-3090200.zip -P ..
+rm -rf ../sqlite.bak
+cd ..
+unzip sqlite-amalgamation*.zip
+rm -rf sqlite-amalgamation*.zip
+mv sqlite-amalgamation* sqlite
+cd dmi
