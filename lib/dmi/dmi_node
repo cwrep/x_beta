@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+git clone https://github.com/nodejs/node.git ../node
+cd ../node
+./configure
+make
+sudo make install
+cd ..
+rm -rf node
+cd dmi

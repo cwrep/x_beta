@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-git clone https://github.com/nodejs/node.git ./ubin/node
-cd ./ubin/node
-./configure
-make
-sudo make install
-cd ../..

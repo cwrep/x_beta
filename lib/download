@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-wget http://www.sqlite.org/2015/sqlite-amalgamation-3090200.zip -O sqlite.zip
-unzip sqlite.zip
-mv sqlite-* sqlite
